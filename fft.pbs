@@ -1,0 +1,5 @@
+#PBS -l nodes=1:ppn=1
+#PBS -N fft_single
+#PBS -j oe
+
+mpiexec ~/fft/fft 1
