@@ -1,0 +1,5 @@
+#PBS -l nodes=4:ppn=2
+#PBS -N fft_m_1024_8_4x2
+#PBS -j oe
+
+mpiexec ~/fft/fft_multi 8 4 2 1024 64
