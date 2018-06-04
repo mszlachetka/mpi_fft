@@ -1,5 +1,0 @@
-#PBS -l nodes=1:ppn=2
-#PBS -N fft_m_524288_2_1x2
-#PBS -j oe
-
-mpiexec ~/fft/fft_multi 2 1 2 524288 64

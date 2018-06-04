@@ -1,6 +1,0 @@
-4 cores (4x1)
-
-sampling_rate: 1024 | signal_time_sec: 64
-total_samples_taken: 65536 | total samples: 65536
-algorithm time: 0.046703
-total time: 0.057923
